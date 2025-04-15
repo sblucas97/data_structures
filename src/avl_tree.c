@@ -3,6 +3,11 @@
 #include<assert.h>
 #include"avl_tree.h"
 
+/*
+TODOS:
+1. use the height variable properly
+2. add rotations functions
+*/
 struct avlTreeNode *newAvlTreeNode(int val) {
     struct avlTreeNode *n = (struct avlTreeNode *) malloc(sizeof(struct avlTreeNode));
 

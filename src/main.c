@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include"queue.h"
-#include"tree.h"
+#include"avl_tree.h"
 
 int main() {
     // struct queueNode *q = NULL;
@@ -17,22 +17,22 @@ int main() {
     // pop(&q);
     // printQueue(q);
 
-    struct treeNode *t = NULL;
+    struct avlTreeNode *t = NULL;
 
-    insert(&t, 8);
-    insert(&t, 6);
-    insert(&t, 12);
-    insert(&t, 4);
-    insert(&t, 7);
-    insert(&t, 10);
-    insert(&t, 14);
-    insert(&t, 1);
-    insert(&t, 5);
-    insert(&t, 9);
-    insert(&t, 11);
-    insert(&t, 13);
-    insert(&t, 15);
-    printTree(t);
+    insertAvlTree(&t, 8);
+    insertAvlTree(&t, 6);
+    insertAvlTree(&t, 12);
+    insertAvlTree(&t, 4);
+    insertAvlTree(&t, 7);
+    insertAvlTree(&t, 10);
+    insertAvlTree(&t, 14);
+    insertAvlTree(&t, 1);
+    insertAvlTree(&t, 5);
+    insertAvlTree(&t, 9);
+    insertAvlTree(&t, 11);
+    insertAvlTree(&t, 13);
+    insertAvlTree(&t, 15);
+    printAvlTree(t);
 
 
 
